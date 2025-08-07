@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="b.css">
+</head>
+<body background="2D  animation hacker.mp4">
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">ERI<span>Creative</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm ERICK</h1>
+                <h2>Graphic Designer & programmer</h2>
+                <p>Creating compelling visual identities that tell your brand's unique story.</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="PXL_20240925_104018823.jpg" alt="Designer Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="LOGO.jpg" alt="About Designer">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p>With over 2 years of experience in graphic design, I specialize in creating visually stunning designs that communicate effectively. My passion lies in branding, typography, and digital illustrations.</p>
+                
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-bars">
+                        <div class="bar">
+                            <div class="info">
+                                <span>Adobe Photoshop</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-line ps"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Adobe Illustrator</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-line ai"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Adobe premiere pro</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-line id"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>Animation</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-line figma"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="cv.jpg" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">A selection of my recent work</p>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+                <button class="filter-btn" data-filter="illustration">Illustration</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://via.placeholder.com/600x400" alt="Branding Project">
+                    <div class="portfolio-overlay">
+                        <h3>Coffee Brand Identity</h3>
+                        <p>Branding</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="print">
+                    <img src="https://via.placeholder.com/600x400" alt="Print Project">
+                    <div class="portfolio-overlay">
+                        <h3>Magazine Layout</h3>
+                        <p>Print Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="digital">
+                    <img src="https://via.placeholder.com/600x400" alt="Digital Project">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile App UI</h3>
+                        <p>Digital Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="illustration">
+                    <img src="https://via.placeholder.com/600x400" alt="Illustration Project">
+                    <div class="portfolio-overlay">
+                        <h3>Character Design</h3>
+                        <p>Illustration</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://via.placeholder.com/600x400" alt="Branding Project">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Branding</h3>
+                        <p>Branding</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="print">
+                    <img src="erick.jpg" alt="Print Project">
+                    <div class="portfolio-overlay">
+                        <h3>Book Cover Design</h3>
+                        <p>Print Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-subtitle">What I can do for you</p>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Creating unique visual identities that represent your brand's values and personality.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Print Design</h3>
+                    <p>Business cards, brochures, posters, and other printed materials that make an impact.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Digital Design</h3>
+                    <p>Web graphics, social media content, and digital ads that engage your audience.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Illustration</h3>
+                    <p>Custom illustrations that bring your ideas to life with a unique artistic touch.</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Typography</h3>
+                    <p>Custom lettering and font selection that enhances your brand's visual communication.</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3>Packaging Design</h3>
+                    <p>Eye-catching packaging that stands out on shelves and tells your product's story.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What my clients say about my work</p>
+            
+            <div class="testimonial-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial active">
+                    <div class="client-info">
+                        <img src="" alt="">
+                        <h4>geophrey</h4>
+                        <p>Tutor,graphics and Design </p>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Erick transformed our brand identity completely. The new logo and visual system perfectly captured our company's values and has helped us stand out in a competitive market."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="client-info">
+                        <img src="" alt="">
+                        <h4> Rogers</h4>
+                        <p>jr instructor, software engineer</p>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Working with Erick on our app UI was a fantastic experience. They understood our needs immediately and delivered designs that were both beautiful and highly functional."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <div class="client-info">
+                        <img src="" alt="">
+                        <h4>Mr LUKUMAY</h4>
+                        <p>jr Principal</p>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The book covers Erick designed for our new series have been incredibly effective. Sales have exceeded expectations, and we credit much of that to the striking visual designs."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's create something amazing together</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>erickmsafirijuma@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+255 741 681 933</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>ARUSHA, TZ</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">ERI<span>Creative</span></a>
+                    <p>Creating compelling visual identities that tell your brand's unique story.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Brand Identity</a></li>
+                        <li><a href="#">Print Design</a></li>
+                        <li><a href="#">Digital Design</a></li>
+                        <li><a href="#">Illustration</a></li>
+                        <li><a href="#">Packaging</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on my latest work.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p> 2025 ERICreative. All Rights Reserved.</p>
+                <div class="footer-terms">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="a.js"></script>
+</body>
+</html>
